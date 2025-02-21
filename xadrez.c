@@ -45,9 +45,9 @@ int main()
         torre++;
     }
 
-    for (size_t i = 0; i < rainha; i++)
+    for ( rainha = 1; rainha < 8; rainha++)
     {
-        printf("Rainha move para esquerda, casa %d\n", i);
+        printf("Rainha move para esquerda, casa %d\n", rainha);
     }
 
     return 0;
