@@ -11,9 +11,27 @@ int main()
     int bispo = 1;  // devera ir para casa 5
     int torre = 1;  // devera ir para casa 5
     int rainha = 8; // devera ir para casa
+    int cavalo = 1; // devera ir para casa 2 para baixo 1 casa para esquerda
 
     int casa5 = 5;
-    //int casa = 8;
+    int casa2 = 2;
+    int casa1 = 0;
+    // int casa = 8;
+
+    for (casa2 = 1; casa2 < 3; casa2++)
+    {
+        printf("Movimenta para casa %d\n ", casa2);
+        if (casa2 == 2)
+        {
+            for ( casa1 = 1; casa1 < 2; casa1++)
+            {
+                printf("Movimenta para esquerda casa %d\n ", casa1);
+            }
+            
+           
+        }
+        
+    }
 
     while (bispo <= casa5)
     {
@@ -31,6 +49,6 @@ int main()
     {
         printf("Rainha move para esquerda, casa %d\n", i);
     }
- 
+
     return 0;
 }
